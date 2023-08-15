@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COCA COLA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <section>
+    <div class="container"></div>
+    
+
+<header>
+    <a href="#"><img src="./img/logo.png"  class="logo"></a>
+    <ul class="navigation">
+      <li><a href="#">Home </a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">What's New</a></li>
+      <li><a href="#"></a>Contact</li>
+    </ul>
+</header>
+
+<div class="content">
+    <div class="text-box">
+        <h2>Taste the Feeling</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore atque quos autem, esse sequi, magni aspernatur obcaecati laudantium cumque nobis optio laboriosam neque sapiente blanditiis alias debitis quidem expedita saepe. Facilis non officiis eaque quos quo et aut voluptate atque 
+        </p>
+        <a href="#">Learn More</a>
+    </div>
+    <div class="imgbox">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/chocola1.png" height="400px"></div>
+                <div class="swiper-slide"><img src="img/chocola2.png" height="400px" ></div>
+                <div class="swiper-slide"><img src="img/chocola3.png" height="400px"></div>
+                <div class="swiper-slide"><img src="img/chocola4.png" height="400px"></div>
+                <div class="swiper-slide"><img src="img/chocola5.jpg" height="400px"></div>
+          
+            </div>
+        </div>
+    </div>
+    <ul class="sci">
+        <li><a href="#"><img src="img/facebook.png" height="80px" ></i></a></li>
+        <li><a href="#"><img src="img/instagram.png" height="80px" ></a></li>
+        <li><a href="#"><img src="img/twitter.png" height="50px" ></a></li>
+    </ul>
+</div>
+</section>
+    
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+var swiper = new swiper('.swiper-container',{
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShows: true,
+    },
+    pagination :{
+        el:'.swiper-pagination',
+    },
+});
+</script>
+</body>
+</html>
